@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/CryptoMeter/static/css/main.12d15316.css",
+    "main.js": "/CryptoMeter/static/js/main.7118729b.js",
+    "static/js/787.cda612ba.chunk.js": "/CryptoMeter/static/js/787.cda612ba.chunk.js",
+    "static/media/bitcoin.jpg": "/CryptoMeter/static/media/bitcoin.caa6d89230be4e38460a.jpg",
+    "static/media/tether.jpg": "/CryptoMeter/static/media/tether.26d56f2d6f9d9fb16cc0.jpg",
+    "static/media/tron.jpg": "/CryptoMeter/static/media/tron.4dfec5d2c13adf469a75.jpg",
+    "static/media/cardano.jpg": "/CryptoMeter/static/media/cardano.0d4568c2d242bf1e7f99.jpg",
+    "static/media/ethereum.jpg": "/CryptoMeter/static/media/ethereum.d01375a19c00c1f9c63e.jpg",
+    "static/media/dogecoin.jpg": "/CryptoMeter/static/media/dogecoin.0417518297906dbb8f39.jpg",
+    "static/media/ripple.jpg": "/CryptoMeter/static/media/ripple.648a1f49d672e36b97a0.jpg",
+    "static/media/solana.avif": "/CryptoMeter/static/media/solana.f417cc11907d8b28560e.avif",
+    "static/media/binance.avif": "/CryptoMeter/static/media/binance.e79e544336f3a643e4ec.avif",
+    "index.html": "/CryptoMeter/index.html",
+    "main.12d15316.css.map": "/CryptoMeter/static/css/main.12d15316.css.map",
+    "main.7118729b.js.map": "/CryptoMeter/static/js/main.7118729b.js.map",
+    "787.cda612ba.chunk.js.map": "/CryptoMeter/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12d15316.css",
+    "static/js/main.7118729b.js"
+  ]
+}
