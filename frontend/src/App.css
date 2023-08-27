@@ -1,0 +1,41 @@
+.home-bg{
+  background-color: rgba(0, 0, 18, 0.65);
+  min-height: 100vh;
+}
+.home-bg{
+  background-color: rgba(0, 0, 18, 0.65);
+
+}
+
+
+
+.simage{
+  width:250px;
+  height:170px;
+  border:none;
+  
+}
+
+.title{
+  font-size: 150px;
+  font-family: Alegreya;
+  text-shadow: 2px 2px 4px whitesmoke
+}
+.title2{
+  
+  font-family: Alegreya;
+}
+.title3{
+  
+  font-family: Alegreya;
+}
+h6{
+  font-family: Montserrat;
+  text-align: justify;
+}
+.header-bar{
+background-image: linear-gradient(100deg, black,rgb(100, 4, 4));
+}
+
+
+
