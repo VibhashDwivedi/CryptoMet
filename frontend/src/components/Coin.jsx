@@ -54,7 +54,7 @@ const Coin = () => {
             <div className="d-flex justify-content-center">
         <img src={coin.icon} class="mb-1" width={250} height={250} alt="..." className='overflow-hidden'/>
         </div>
-            <Link to={coin.websiteUrl}><button className='btn btn-primary mt-5  '>Explore More</button></Link>
+            <Link target='_blank' to={coin.websiteUrl}><button className='btn btn-primary mt-5  '>Explore More</button></Link>
         </div>
     </div>
         </div>
