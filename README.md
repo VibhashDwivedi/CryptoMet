@@ -23,9 +23,11 @@ A cryptocurrency tracker that displays real-time data on the Top 100 cryptocurre
    ![](https://github.com/VibhashDwivedi/CryptoMeter/blob/main/Screenshots/Crypto-details-2.png?raw=true)
 
    On clicking on a certain cryptocurrency its details are shown
+   
    ![](https://github.com/VibhashDwivedi/CryptoMeter/blob/main/Screenshots/bitcoin.png?raw=true)
 
    User can search details of any random cryptocurrency based on its rank
+   
    ![](https://github.com/VibhashDwivedi/CryptoMeter/blob/main/Screenshots/random.png?raw=true)
    
   
