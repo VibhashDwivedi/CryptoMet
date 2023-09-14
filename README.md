@@ -3,16 +3,17 @@ A cryptocurrency tracker that displays real-time data on the Top 100 cryptocurre
 
 [Live Demo](https://vibhashdwivedi.github.io/home)
 
-### Commands used
-- Frontend-> npm start
+## Commands used
+- ### Frontend-> npm start
 
-### Screenshots
+## Screenshots
 
    On opening the page by running the command - npm start
-   **Welcome Page**
+   
+   ### **Welcome Page**
    ![](https://github.com/VibhashDwivedi/CryptoMeter/blob/main/Screenshots/About.png?raw=true)
 
-   **Home Page**
+   ### **Home Page**
    ![](https://github.com/VibhashDwivedi/CryptoMeter/blob/main/Screenshots/Home.png?raw=true)
 
    Home page displays detailed info about some top cryptocurrencies
