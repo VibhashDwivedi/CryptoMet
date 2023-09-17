@@ -40,7 +40,8 @@ const Home = () => {
   return (
     <div className=''>
         <div className="container ">
-        <Swiper className='mt-5 mx-5 '
+        <Swiper className='mt-5 mx-5 px-2 p-lg-0' 
+        
          modules={[Navigation, Pagination, Autoplay]}
       spaceBetween={50}
       slidesPerView={4}
@@ -61,7 +62,7 @@ const Home = () => {
 
         300: {
           slidesPerView: 1,
-          spaceBetween: 20
+          spaceBetween: 30
         },
 
         640: {
