@@ -1,7 +1,7 @@
 # CryptoMeter
 A cryptocurrency tracker that displays real-time data on the Top 100 cryptocurrencies and gives detailed info about some Top cryptocurrencies
 
-[Live Demo](https://crypto--meter.vercel.app/)
+[Live Demo](https://cryptometer-vibhashdwivedi.vercel.app/)
 
 ## Commands used
 - ### Frontend-> npm start
