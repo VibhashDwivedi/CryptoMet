@@ -44,14 +44,38 @@ const Home = () => {
          modules={[Navigation, Pagination, Autoplay]}
       spaceBetween={50}
       slidesPerView={4}
+
+      
+
         navigation
         pagination={{ clickable: true }}
        
         autoplay={{ delay: 2000, disableOnInteraction: false }}
        
 
-      onSlideChange={() => console.log('slide change')}
+     
       onSwiper={(swiper) => console.log(swiper)}
+
+      breakpoints={{
+        // when window width is >= 640px
+
+        300: {
+          slidesPerView: 1,
+          spaceBetween: 20
+        },
+
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20
+        },
+        // when window width is >= 768px
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 50
+        },
+        
+      }}
+
     >
     <SwiperSlide> <Link to='/coin/0'><img class=" simage card rounded-4"  style={{zIndex:'-2'}} src={bitcoin} alt=""/></Link>
     <p className='text-center text-white' >Bitcoin</p>
@@ -110,7 +134,7 @@ const Home = () => {
             </div>
             <div className="row">
 
-            <div className="col-12 col-md-6 col-lg-6">
+            <div className="col-12 col-md-6 col-lg-6 mt-3">
             <div className="card bg" >
             <div className="card-body">
             <h5 className="card-title">Bitcoin</h5>
@@ -124,7 +148,7 @@ const Home = () => {
             </div>
             </div>
 
-            <div className="col-12 col-md-6 col-lg-6">
+            <div className="col-12 col-md-6 col-lg-6 mt-3">
             <div className="card">
             <div className="card-body">
             <h5 className="card-title">Ethereum</h5>
