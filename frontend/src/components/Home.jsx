@@ -99,10 +99,10 @@ const Home = () => {
               <SwiperSlide> <Link to='/coin/4'><img class=" simage  card rounded-4"  style={{zIndex:'-2'}} src={ripple} alt="" /></Link>
               <p className='text-center text-white ' >Ripple</p>
               </SwiperSlide>
-              <SwiperSlide> <Link to='/coin/9'><img class=" simage  card rounded-4" style={{zIndex:'-2'}} src={solana} alt="" /></Link>
+              <SwiperSlide> <Link to='/coin/10'><img class=" simage  card rounded-4" style={{zIndex:'-2'}} src={solana} alt="" /></Link>
               <p className='text-center text-white ' >Solana</p>
               </SwiperSlide>
-              <SwiperSlide> <Link to='/coin/10'><img class="  simage card rounded-4" style={{zIndex:'-2'}} src={tron} alt="" /></Link>
+              <SwiperSlide> <Link to='/coin/11'><img class="  simage card rounded-4" style={{zIndex:'-2'}} src={tron} alt="" /></Link>
               <p className='text-center text-white  ' >Tron</p>
               </SwiperSlide>
             </Swiper>
@@ -235,7 +235,7 @@ const Home = () => {
             <h5 className="card-title">Solana</h5>
             <p className="card-text">Solana is a decentralized open source blockchain project implementing a permissionless blockchain. The project's mission is to provide a high-performance blockchain that can enable scalability for consumer products and enterprise clients.
             <a href="https://en.wikipedia.org/wiki/Solana_(blockchain)" target='_blank' className='text-decoration-none' > Read More</a></p>
-            <Link to='/coin/9'>
+            <Link to='/coin/10'>
             <button className='btn btn-primary'>Details</button>
             </Link>
             </div>
@@ -248,7 +248,7 @@ const Home = () => {
             <h5 className="card-title">Tron</h5>
             <p className="card-text">Tron is a blockchain-based decentralized operating system that aims to construct a worldwide free content entertainment system with the blockchain and distributed storage technology.
             <a href="https://en.wikipedia.org/wiki/Tron_(cryptocurrency)" target='_blank' className='text-decoration-none' > Read More</a></p>
-            <Link to='/coin/10'>
+            <Link to='/coin/11'>
             <button className='btn btn-primary'>Details</button>
             </Link>
             </div>
