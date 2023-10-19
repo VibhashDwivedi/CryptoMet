@@ -117,13 +117,13 @@ const Home = () => {
             
 
               <form action="" onSubmit={search.handleSubmit} className= " container">
-              <input className='form-control w-50 m-auto ' name='id' type="number" placeholder='Enter a value between 1 to 100' onChange={search.handleChange}
+              <input className='form-control w-50 m-auto search' name='id' type="number" placeholder='Enter a value between 1 to 100' onChange={search.handleChange}
               value={search.values.id}
               />
               
              {/* <Link to='/coin/ value from input */}
               <Link to={`/coin/${search.values.id-1}`} className='d-flex justify-content-center'>
-             <button className='btn btn-primary w-50 mt-2'>Search</button></Link>
+             <button className='btn btn-primary w-50 mt-2  search'>Search</button></Link>
              </form>
               
             </div>

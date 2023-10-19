@@ -15,7 +15,7 @@ const Welcome = () => {
         </div>
        
 <div className="d-flex justify-content-center">
-    <Link  to='/home'><button className="btn btn-lg btn-primary">Get Started</button></Link>
+    <Link  to='/home'><button className="btn btn-lg btn-primary mb-3">Get Started</button></Link>
 </div>
     </div>
   )
