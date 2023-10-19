@@ -12,7 +12,7 @@ const Navbar = () => {
    
     <nav className="navbar navbar-expand-lg header-bar">
   <div className="container">
-    <NavLink className="navbar-brand  display-2 fs-2 fw-bold text-white title2" href="#">
+    <NavLink className="navbar-brand  display-2 fs-2 fw-bold text-white title2" to="/home">
       CryptoMeter
     </NavLink>
     <button
