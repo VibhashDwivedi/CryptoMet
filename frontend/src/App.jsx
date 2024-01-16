@@ -22,7 +22,7 @@ return (
 <Route path="/" element={<Welcome/>}/>
 <Route path="/CryptoMeter" element={<Welcome/>}/>
 <Route path="/home" element={<Home/>}/>
-<Route path='/coin/:index' element={<Coin/>} />
+<Route path='/coin/:coinId' element={<Coin/>} />
 
 
 <Route path='*' element={<Error/>} />

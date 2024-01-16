@@ -6,40 +6,43 @@ import { Link, useParams } from 'react-router-dom';
 const Coin = () => {
 
 
-
-    const [data , setData] = useState([])
+    const {coinId} = useParams()
+    const [data, setData] = useState([])
     const [coin , setCoin] = useState([])
-    const {index} = useParams()
-
-    const url = "https://api.coinstats.app/public/v1/coins"
-    
-    const fetchData =  () => {
-       return  axios.get(url)
-        .then((res) => {
-            setData(res.data.coins)
-            setCoin(res.data.coins[index])
-        })
-        .catch((err) => {
-            console.log(err)
-        })
-    }
-    useEffect(() => {
-        fetchData()
-    }
-    ,[])
-    console.log(data[index])
-    console.log(data[index])
-    console.log(coin.name)
-
-//set the coin data to be displayed
-    
    
+    const options = {
+        method: 'GET',
+        headers: {
+          accept: 'application/json',
+          'X-API-KEY': '9mzZaQIhsngnEFfDT0h1rrCs3tjlU771vZJNiqIUApI='
+        }
+      };
+      
+    
+const url = `https://openapiv1.coinstats.app/coins/${coinId}`
+
+const fetchData = async () => {
+    const response = await axios.get(url, options)
+    const data = response.data
+    setCoin(data)
+    console.log(data)
+}
+
+useEffect(() => {
+    fetchData()
+}
+, [])
+
+
+
+
+
+
 
     
 
 
-
-
+    
 
    return (
     //display coin data in form of table

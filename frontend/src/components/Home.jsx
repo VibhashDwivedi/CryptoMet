@@ -78,31 +78,31 @@ const Home = () => {
       }}
 
     >
-    <SwiperSlide> <Link to='/coin/0'><img class=" simage card rounded-4"  style={{zIndex:'-2'}} src={bitcoin} alt=""/></Link>
+    <SwiperSlide> <Link to='/coin/bitcoin'><img class=" simage card rounded-4"  style={{zIndex:'-2'}} src={bitcoin} alt=""/></Link>
     <p className='text-center text-white' >Bitcoin</p>
     </SwiperSlide>
     <SwiperSlide>
-            <Link to='/coin/1'><img class=" simage  card rounded-4 " src={ethereum} style={{zIndex:'-2'}} alt="" /></Link>
+            <Link to='/coin/ethereum'><img class=" simage  card rounded-4 " src={ethereum} style={{zIndex:'-2'}} alt="" /></Link>
     <p className='text-center text-white '  >Ethereum</p></SwiperSlide>
-              <SwiperSlide><Link to='/coin/8'> <img class=" simage  card rounded-4" src={dogecoin} style={{zIndex:'-2'}} alt="" /></Link>
+              <SwiperSlide><Link to='/coin/dogecoin'> <img class=" simage  card rounded-4" src={dogecoin} style={{zIndex:'-2'}} alt="" /></Link>
               <p className='text-center text-white '  >Dogecoin</p>
               </SwiperSlide>
-              <SwiperSlide> <Link to='/coin/2'><img class=" simage  card rounded-4" style={{zIndex:'-2'}} src={tether} alt="" /></Link>
+              <SwiperSlide> <Link to='/coin/tether'><img class=" simage  card rounded-4" style={{zIndex:'-2'}} src={tether} alt="" /></Link>
               <p className='text-center text-white  ' >Tether</p>
               </SwiperSlide>
-              <SwiperSlide> <Link to='/coin/3'><img class=" simage  card rounded-4"  style={{zIndex:'-2'}} src={binance} alt="" /></Link>
+              <SwiperSlide> <Link to='/coin/binance-coin'><img class=" simage  card rounded-4"  style={{zIndex:'-2'}} src={binance} alt="" /></Link>
               <p className='text-center text-white  ' >Binance</p>
               </SwiperSlide>
-              <SwiperSlide><Link to='/coin/7'><img class=" simage  card rounded-4" style={{zIndex:'-2'}} src={cardano} alt="" /></Link>
+              <SwiperSlide><Link to='/coin/cardano'><img class=" simage  card rounded-4" style={{zIndex:'-2'}} src={cardano} alt="" /></Link>
               <p className='text-center text-white  ' >Cardano</p>
               </SwiperSlide>
-              <SwiperSlide> <Link to='/coin/4'><img class=" simage  card rounded-4"  style={{zIndex:'-2'}} src={ripple} alt="" /></Link>
+              <SwiperSlide> <Link to='/coin/ripple'><img class=" simage  card rounded-4"  style={{zIndex:'-2'}} src={ripple} alt="" /></Link>
               <p className='text-center text-white ' >Ripple</p>
               </SwiperSlide>
-              <SwiperSlide> <Link to='/coin/10'><img class=" simage  card rounded-4" style={{zIndex:'-2'}} src={solana} alt="" /></Link>
+              <SwiperSlide> <Link to='/coin/solana'><img class=" simage  card rounded-4" style={{zIndex:'-2'}} src={solana} alt="" /></Link>
               <p className='text-center text-white ' >Solana</p>
               </SwiperSlide>
-              <SwiperSlide> <Link to='/coin/11'><img class="  simage card rounded-4" style={{zIndex:'-2'}} src={tron} alt="" /></Link>
+              <SwiperSlide> <Link to='/coin/tron'><img class="  simage card rounded-4" style={{zIndex:'-2'}} src={tron} alt="" /></Link>
               <p className='text-center text-white  ' >Tron</p>
               </SwiperSlide>
             </Swiper>
