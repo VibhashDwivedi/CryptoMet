@@ -54,8 +54,8 @@ useEffect(() => {
         <div className="card-title">
             <h1 className='text-decoration-underline'>{coin.name}</h1>
             <hr />
-            <div className="d-flex justify-content-center">
-        <img src={coin.icon} class="mt-4 mb-3" width={250} height={250} alt="..." className='overflow-hidden'/>
+            <div className="d-flex justify-content-center my-lg-4">
+        <img src={coin.icon} class="mt-2 " width={250} height={250} alt="..." className='overflow-hidden'/>
         </div>
             <Link target='_blank' to={coin.websiteUrl}><button className='btn btn-primary mt-5 '>Explore More</button></Link>
         </div>
