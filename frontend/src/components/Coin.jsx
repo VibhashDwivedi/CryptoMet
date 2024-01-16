@@ -8,7 +8,7 @@ const Coin = () => {
 
     const {coinId} = useParams()
     const {currency} = useParams()
-    const [data, setData] = useState([])
+   
     const [coin , setCoin] = useState([])
    
     const options = {
