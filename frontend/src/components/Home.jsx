@@ -78,31 +78,31 @@ const Home = () => {
       }}
 
     >
-    <SwiperSlide> <Link to='/coin/bitcoin'><img class=" simage card rounded-4"  style={{zIndex:'-2'}} src={bitcoin} alt=""/></Link>
+    <SwiperSlide> <Link to='/coin/bitcoin/USD'><img class=" simage card rounded-4"  style={{zIndex:'-2'}} src={bitcoin} alt=""/></Link>
     <p className='text-center text-white' >Bitcoin</p>
     </SwiperSlide>
     <SwiperSlide>
-            <Link to='/coin/ethereum'><img class=" simage  card rounded-4 " src={ethereum} style={{zIndex:'-2'}} alt="" /></Link>
+            <Link to='/coin/ethereum/USD'><img class=" simage  card rounded-4 " src={ethereum} style={{zIndex:'-2'}} alt="" /></Link>
     <p className='text-center text-white '  >Ethereum</p></SwiperSlide>
-              <SwiperSlide><Link to='/coin/dogecoin'> <img class=" simage  card rounded-4" src={dogecoin} style={{zIndex:'-2'}} alt="" /></Link>
+              <SwiperSlide><Link to='/coin/dogecoin/USD'> <img class=" simage  card rounded-4" src={dogecoin} style={{zIndex:'-2'}} alt="" /></Link>
               <p className='text-center text-white '  >Dogecoin</p>
               </SwiperSlide>
-              <SwiperSlide> <Link to='/coin/tether'><img class=" simage  card rounded-4" style={{zIndex:'-2'}} src={tether} alt="" /></Link>
+              <SwiperSlide> <Link to='/coin/tether/USD'><img class=" simage  card rounded-4" style={{zIndex:'-2'}} src={tether} alt="" /></Link>
               <p className='text-center text-white  ' >Tether</p>
               </SwiperSlide>
-              <SwiperSlide> <Link to='/coin/binance-coin'><img class=" simage  card rounded-4"  style={{zIndex:'-2'}} src={binance} alt="" /></Link>
+              <SwiperSlide> <Link to='/coin/binance-coin/USD'><img class=" simage  card rounded-4"  style={{zIndex:'-2'}} src={binance} alt="" /></Link>
               <p className='text-center text-white  ' >Binance</p>
               </SwiperSlide>
-              <SwiperSlide><Link to='/coin/cardano'><img class=" simage  card rounded-4" style={{zIndex:'-2'}} src={cardano} alt="" /></Link>
+              <SwiperSlide><Link to='/coin/cardano/USD'><img class=" simage  card rounded-4" style={{zIndex:'-2'}} src={cardano} alt="" /></Link>
               <p className='text-center text-white  ' >Cardano</p>
               </SwiperSlide>
-              <SwiperSlide> <Link to='/coin/ripple'><img class=" simage  card rounded-4"  style={{zIndex:'-2'}} src={ripple} alt="" /></Link>
+              <SwiperSlide> <Link to='/coin/ripple/USD'><img class=" simage  card rounded-4"  style={{zIndex:'-2'}} src={ripple} alt="" /></Link>
               <p className='text-center text-white ' >Ripple</p>
               </SwiperSlide>
-              <SwiperSlide> <Link to='/coin/solana'><img class=" simage  card rounded-4" style={{zIndex:'-2'}} src={solana} alt="" /></Link>
+              <SwiperSlide> <Link to='/coin/solana/USD'><img class=" simage  card rounded-4" style={{zIndex:'-2'}} src={solana} alt="" /></Link>
               <p className='text-center text-white ' >Solana</p>
               </SwiperSlide>
-              <SwiperSlide> <Link to='/coin/tron'><img class="  simage card rounded-4" style={{zIndex:'-2'}} src={tron} alt="" /></Link>
+              <SwiperSlide> <Link to='/coin/tron/USD'><img class="  simage card rounded-4" style={{zIndex:'-2'}} src={tron} alt="" /></Link>
               <p className='text-center text-white  ' >Tron</p>
               </SwiperSlide>
             </Swiper>
@@ -122,7 +122,7 @@ const Home = () => {
               />
               
              {/* <Link to='/coin/ value from input */}
-              <Link to={`/coin/${search.values.id}`} className='d-flex justify-content-center'>
+              <Link to={`/coin/${search.values.id}/USD`} className='d-flex justify-content-center'>
              <button className='btn btn-primary w-50 mt-2  search'>Search</button></Link>
              </form>
               
@@ -141,7 +141,7 @@ const Home = () => {
             <h5 className="card-title">Bitcoin</h5>
             <p className="card-text">Bitcoin is a cryptocurrency invented in 2008 by an unknown person or group of people using the name Satoshi Nakamoto. The currency began use in 2009 when its implementation was released as open-source software.
             <a href="https://en.wikipedia.org/wiki/Bitcoin" className="text-decoration-none" target='_blank'> Read More</a></p>
-           <Link to='/coin/bitcoin'>
+           <Link to='/coin/bitcoin/USD'>
            <button className='btn btn-primary '>Details</button>
            </Link>
            
@@ -156,7 +156,7 @@ const Home = () => {
             <p className="card-text">Ethereum is a decentralized, open-source blockchain with smart contract functionality. Ether is the native cryptocurrency of the platform. After Bitcoin, it is the largest cryptocurrency by market capitalization. 
             <a href="https://en.wikipedia.org/wiki/Ethereum" target='_blank' className='text-decoration-none' > Read More</a></p>
 
-            <Link to='/coin/ethereum'>
+            <Link to='/coin/ethereum/USD'>
            <button className='btn btn-primary'>Details</button>
            </Link>
             </div>
@@ -170,7 +170,7 @@ const Home = () => {
             <h5 className="card-title">Dogecoin</h5>
             <p className="card-text">Dogecoin is a cryptocurrency invented by software engineers Billy Markus and Jackson Palmer, who decided to create a payment system that is instant, fun, and free from traditional banking fees. <br />
             <a href="https://en.wikipedia.org/wiki/Dogecoin" target='_blank' className='text-decoration-none' >  Read More</a></p>
-            <Link to='/coin/dogecoin'>
+            <Link to='/coin/dogecoin/USD'>
             <button className='btn btn-primary'>Details</button>
             </Link>
             </div>
@@ -183,7 +183,7 @@ const Home = () => {
             <h5 className="card-title">Tether</h5>
             <p className="card-text">Tether is a controversial cryptocurrency with tokens issued by Tether Limited, which in turn is controlled by the owners of Bitfinex. Tether is called a stablecoin because it is designed to always be worth $1.00.
             <a href="https://en.wikipedia.org/wiki/Tether_(cryptocurrency)" target='_blank' className='text-decoration-none' > Read More</a></p>
-            <Link to='/coin/tether'>
+            <Link to='/coin/tether/USD'>
             <button className='btn btn-primary'>Details</button>
             </Link>
             </div>
@@ -196,7 +196,7 @@ const Home = () => {
             <h5 className="card-title">Binance</h5>
             <p className="card-text">Binance Coin is a cryptocurrency created by the CEO of the world's largest cryptocurrency exchange Binance. BNB coin is used to pay fees on the Binance cryptocurrency exchange for trading cryptocurrencies.
             <a href="https://en.wikipedia.org/wiki/Binance_Coin" target='_blank' className='text-decoration-none' > Read More</a></p>
-            <Link to='/coin/binance-coin'>
+            <Link to='/coin/binance-coin/USD'>
             <button className='btn btn-primary'>Details</button>
             </Link>
             </div>
@@ -209,7 +209,7 @@ const Home = () => {
             <h5 className="card-title">Cardano</h5>
             <p className="card-text">Cardano is a public blockchain platform. It is open source and decentralized, with consensus achieved using proof of stake. It can facilitate peer-to-peer transactions with its internal cryptocurrency Ada.
             <a href="https://en.wikipedia.org/wiki/Cardano_(platform)" target='_blank' className='text-decoration-none' > Read More</a></p>
-            <Link to='/coin/cardano'>
+            <Link to='/coin/cardano/USD'>
             <button className='btn btn-primary'>Details</button>
             </Link>
             </div>
@@ -222,7 +222,7 @@ const Home = () => {
             <h5 className="card-title">Ripple</h5>
             <p className="card-text">Ripple is a real-time gross settlement system, currency exchange and remittance network created by Ripple Labs Inc., a US-based technology company. Released in 2012, Ripple is built upon a distributed open source protocol.
             <a href="https://en.wikipedia.org/wiki/Ripple_(payment_protocol)" target='_blank' className='text-decoration-none' > Read More</a></p>
-            <Link to='/coin/ripple'>
+            <Link to='/coin/ripple/USD'>
             <button className='btn btn-primary'>Details</button>
             </Link>
             </div>
@@ -235,7 +235,7 @@ const Home = () => {
             <h5 className="card-title">Solana</h5>
             <p className="card-text">Solana is a decentralized open source blockchain project implementing a permissionless blockchain. The project's mission is to provide a high-performance blockchain that can enable scalability for consumer products and enterprise clients.
             <a href="https://en.wikipedia.org/wiki/Solana_(blockchain)" target='_blank' className='text-decoration-none' > Read More</a></p>
-            <Link to='/coin/solana'>
+            <Link to='/coin/solana/USD'>
             <button className='btn btn-primary'>Details</button>
             </Link>
             </div>
@@ -248,7 +248,7 @@ const Home = () => {
             <h5 className="card-title">Tron</h5>
             <p className="card-text">Tron is a blockchain-based decentralized operating system that aims to construct a worldwide free content entertainment system with the blockchain and distributed storage technology.
             <a href="https://en.wikipedia.org/wiki/Tron_(cryptocurrency)" target='_blank' className='text-decoration-none' > Read More</a></p>
-            <Link to='/coin/tron'>
+            <Link to='/coin/tron/USD'>
             <button className='btn btn-primary'>Details</button>
             </Link>
             </div>
