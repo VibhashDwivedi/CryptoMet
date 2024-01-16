@@ -47,7 +47,7 @@ useEffect(() => {
    return (
     //display coin data in form of table
 
-    <div className='container mt-5'>
+    <div className='container mt-4'>
    <div className="row">
     <div className="col-lg-7">
     <div className="card  pt-2 mt-3 pb-2 px-4">
@@ -55,9 +55,9 @@ useEffect(() => {
             <h1 className='text-decoration-underline'>{coin.name}</h1>
             <hr />
             <div className="d-flex justify-content-center">
-        <img src={coin.icon} class="mb-1" width={250} height={250} alt="..." className='overflow-hidden'/>
+        <img src={coin.icon} class="mt-4 mb-3" width={250} height={250} alt="..." className='overflow-hidden'/>
         </div>
-            <Link target='_blank' to={coin.websiteUrl}><button className='btn btn-primary mt-5  '>Explore More</button></Link>
+            <Link target='_blank' to={coin.websiteUrl}><button className='btn btn-primary mt-5 '>Explore More</button></Link>
         </div>
     </div>
         </div>
@@ -80,6 +80,11 @@ useEffect(() => {
     </tr>
     </thead>
     <tbody>
+    <tr>
+
+<td className=''>id</td>
+<td>{coin.id}</td>
+</tr>
     <tr>
 
 <td className=''>Symbol</td>
