@@ -33,6 +33,13 @@ const Navbar = () => {
           <button className="btn btn-primary">Home</button> 
           </NavLink>
         </li>
+        <li className="nav-item">
+          <NavLink className="nav-link"  to="/news">
+          <button className="btn btn-primary">News</button> 
+          </NavLink>
+        </li>
+
+
        
         <li className="nav-item">
           <NavLink className="nav-link" to="/CryptoMeter">

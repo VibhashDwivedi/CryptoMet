@@ -86,7 +86,7 @@ function refreshPage(){
     <tbody>
     <tr>
 
-<td className=''>id</td>
+<td className=''>Id</td>
 <td>{coin.id}</td>
 </tr>
     <tr>

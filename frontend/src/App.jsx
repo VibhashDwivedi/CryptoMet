@@ -8,6 +8,7 @@ import Home from './components/Home';
 import Coin from './components/Coin';
 import Error from './components/Error';
 import Welcome from './components/Welcome';
+import News from './components/News';
 
 
 
@@ -23,6 +24,8 @@ return (
 <Route path="/CryptoMeter" element={<Welcome/>}/>
 <Route path="/home" element={<Home/>}/>
 <Route path='/coin/:coinId/:currency' element={<Coin/>} />
+<Route path='/news' element={<News/>} />
+
 
 
 <Route path='*' element={<Error/>} />
