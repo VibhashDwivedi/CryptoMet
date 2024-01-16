@@ -113,16 +113,16 @@ const Home = () => {
 
 </div>
 <div className="d-flex justify-content-center">
-<p className='text-warning text-decoration-underline'>Get details of top 100 cryptocurrencies based on rank</p></div>
+<p className='text-warning text-decoration-underline'>Search a cryptocurrency by coinId</p></div>
             
 
               <form action="" onSubmit={search.handleSubmit} className= " container">
-              <input className='form-control w-50 m-auto search' name='id' type="number" placeholder='Enter a value between 1 to 100' onChange={search.handleChange}
+              <input className='form-control w-50 m-auto search' name='id' type="text" autoComplete='off' placeholder='Enter a coinId, e.g. bitcoin, tron' onChange={search.handleChange}
               value={search.values.id}
               />
               
              {/* <Link to='/coin/ value from input */}
-              <Link to={`/coin/${search.values.id-1}`} className='d-flex justify-content-center'>
+              <Link to={`/coin/${search.values.id}`} className='d-flex justify-content-center'>
              <button className='btn btn-primary w-50 mt-2  search'>Search</button></Link>
              </form>
               
@@ -141,7 +141,7 @@ const Home = () => {
             <h5 className="card-title">Bitcoin</h5>
             <p className="card-text">Bitcoin is a cryptocurrency invented in 2008 by an unknown person or group of people using the name Satoshi Nakamoto. The currency began use in 2009 when its implementation was released as open-source software.
             <a href="https://en.wikipedia.org/wiki/Bitcoin" className="text-decoration-none" target='_blank'> Read More</a></p>
-           <Link to='/coin/0'>
+           <Link to='/coin/bitcoin'>
            <button className='btn btn-primary '>Details</button>
            </Link>
            
@@ -156,7 +156,7 @@ const Home = () => {
             <p className="card-text">Ethereum is a decentralized, open-source blockchain with smart contract functionality. Ether is the native cryptocurrency of the platform. After Bitcoin, it is the largest cryptocurrency by market capitalization. 
             <a href="https://en.wikipedia.org/wiki/Ethereum" target='_blank' className='text-decoration-none' > Read More</a></p>
 
-            <Link to='/coin/1'>
+            <Link to='/coin/ethereum'>
            <button className='btn btn-primary'>Details</button>
            </Link>
             </div>
@@ -170,7 +170,7 @@ const Home = () => {
             <h5 className="card-title">Dogecoin</h5>
             <p className="card-text">Dogecoin is a cryptocurrency invented by software engineers Billy Markus and Jackson Palmer, who decided to create a payment system that is instant, fun, and free from traditional banking fees. <br />
             <a href="https://en.wikipedia.org/wiki/Dogecoin" target='_blank' className='text-decoration-none' >  Read More</a></p>
-            <Link to='/coin/8'>
+            <Link to='/coin/dogecoin'>
             <button className='btn btn-primary'>Details</button>
             </Link>
             </div>
@@ -183,7 +183,7 @@ const Home = () => {
             <h5 className="card-title">Tether</h5>
             <p className="card-text">Tether is a controversial cryptocurrency with tokens issued by Tether Limited, which in turn is controlled by the owners of Bitfinex. Tether is called a stablecoin because it is designed to always be worth $1.00.
             <a href="https://en.wikipedia.org/wiki/Tether_(cryptocurrency)" target='_blank' className='text-decoration-none' > Read More</a></p>
-            <Link to='/coin/2'>
+            <Link to='/coin/tether'>
             <button className='btn btn-primary'>Details</button>
             </Link>
             </div>
@@ -196,7 +196,7 @@ const Home = () => {
             <h5 className="card-title">Binance</h5>
             <p className="card-text">Binance Coin is a cryptocurrency created by the CEO of the world's largest cryptocurrency exchange Binance. BNB coin is used to pay fees on the Binance cryptocurrency exchange for trading cryptocurrencies.
             <a href="https://en.wikipedia.org/wiki/Binance_Coin" target='_blank' className='text-decoration-none' > Read More</a></p>
-            <Link to='/coin/3'>
+            <Link to='/coin/binance-coin'>
             <button className='btn btn-primary'>Details</button>
             </Link>
             </div>
@@ -209,7 +209,7 @@ const Home = () => {
             <h5 className="card-title">Cardano</h5>
             <p className="card-text">Cardano is a public blockchain platform. It is open source and decentralized, with consensus achieved using proof of stake. It can facilitate peer-to-peer transactions with its internal cryptocurrency Ada.
             <a href="https://en.wikipedia.org/wiki/Cardano_(platform)" target='_blank' className='text-decoration-none' > Read More</a></p>
-            <Link to='/coin/7'>
+            <Link to='/coin/cardano'>
             <button className='btn btn-primary'>Details</button>
             </Link>
             </div>
@@ -222,7 +222,7 @@ const Home = () => {
             <h5 className="card-title">Ripple</h5>
             <p className="card-text">Ripple is a real-time gross settlement system, currency exchange and remittance network created by Ripple Labs Inc., a US-based technology company. Released in 2012, Ripple is built upon a distributed open source protocol.
             <a href="https://en.wikipedia.org/wiki/Ripple_(payment_protocol)" target='_blank' className='text-decoration-none' > Read More</a></p>
-            <Link to='/coin/4'>
+            <Link to='/coin/ripple'>
             <button className='btn btn-primary'>Details</button>
             </Link>
             </div>
@@ -235,7 +235,7 @@ const Home = () => {
             <h5 className="card-title">Solana</h5>
             <p className="card-text">Solana is a decentralized open source blockchain project implementing a permissionless blockchain. The project's mission is to provide a high-performance blockchain that can enable scalability for consumer products and enterprise clients.
             <a href="https://en.wikipedia.org/wiki/Solana_(blockchain)" target='_blank' className='text-decoration-none' > Read More</a></p>
-            <Link to='/coin/10'>
+            <Link to='/coin/solana'>
             <button className='btn btn-primary'>Details</button>
             </Link>
             </div>
@@ -248,7 +248,7 @@ const Home = () => {
             <h5 className="card-title">Tron</h5>
             <p className="card-text">Tron is a blockchain-based decentralized operating system that aims to construct a worldwide free content entertainment system with the blockchain and distributed storage technology.
             <a href="https://en.wikipedia.org/wiki/Tron_(cryptocurrency)" target='_blank' className='text-decoration-none' > Read More</a></p>
-            <Link to='/coin/11'>
+            <Link to='/coin/tron'>
             <button className='btn btn-primary'>Details</button>
             </Link>
             </div>
