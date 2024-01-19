@@ -36,15 +36,15 @@ const News = () => {
                         <div className="card-body">
                             <div className="d-flex">
                                 <div>
-                            <h5 className="card-title">{news.title}</h5>
-                            <a href={news.link} className="btn btn-primary mt-5">Read More</a>
-                           <div> Source:  
-                           <a href={news.sourceLink} className="btn btn-primary mt-1">{news.source}</a>
+                            <h4 className="card-title news-title">{news.title}</h4>
+                            <a href={news.link} className=" mt-2 ">Read More</a>
+                           <div className='mt-2 fs-5 fw-bold '> Source:  
+                           <a href={news.sourceLink} className="btn btn-info mx-2 ">{news.source}</a>
                             </div> 
 
                             </div>
                             {/* use image on left*/}
-                            <img  src={news.imgUrl} alt="news-img" className="ms-auto"  width={270} height={160} />
+                            <img  src={news.imgUrl} alt="news-img" className="ms-auto overflow-hidden"  width={270} height={160} />
                           
                             </div>
                         </div>
@@ -65,7 +65,7 @@ const News = () => {
 
     <div className='container mt-4 '>
 
-    <h1 className='text-center text-white'>CryptoNews</h1>
+    <h1 className='text-center text-white'>Top CryptoNews</h1>
     <hr />
 
    <div className="row mt-3 ">

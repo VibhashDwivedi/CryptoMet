@@ -112,12 +112,12 @@ const Home = () => {
 <h1 className='title3 text-white'>Browse Cryptocurrencies</h1>
 
 </div>
-<div className="d-flex justify-content-center">
-<p className='text-warning text-decoration-underline'>Search a cryptocurrency by coinId</p></div>
+{/* <div className="d-flex justify-content-center">
+<p className='text-warning text-decoration-underline'>Search a cryptocurrency by coinId</p></div> */}
             
 
               <form action="" onSubmit={search.handleSubmit} className= " container">
-              <input className='form-control w-50 m-auto search' name='id' type="text" autoComplete='off' placeholder='Enter a coinId, e.g. bitcoin, tron' onChange={search.handleChange}
+              <input className='form-control mt-1 w-50 m-auto search' name='id' type="text" autoComplete='off' placeholder='Enter a coinId, e.g. bitcoin, tron' onChange={search.handleChange}
               value={search.values.id}
               />
               
