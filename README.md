@@ -1,5 +1,5 @@
 # CryptoMeter
-A cryptocurrency tracker that displays real-time data on the Top 100 cryptocurrencies and gives detailed info about some Top cryptocurrencies
+A cryptocurrency tracker that displays real-time data on cryptocurrencies and gives detailed info about some Top cryptocurrencies. Cryptocurrency prices can be viewed in various currencies and it also displays top crypto news along with sources.
 
 [Live Demo](https://cryptometer-vibhashdwivedi.vercel.app/)
 
